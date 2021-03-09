@@ -1,0 +1,201 @@
+.subbox{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 50px;
+    text-align: center;
+}
+ul{
+    float: left;
+}
+ul li{
+    float:left;
+    width: 90px;
+    position: relative;
+    left: 095%;
+    list-style-type: none;
+    font-family: barlow condensed,sans-serif;
+    font-size: 16px;
+    
+    display: inline-block;
+}
+ul li a{
+    text-decoration: aliceblue;
+    color: rgb(0, 0, 0);
+    background-color: peru;
+}
+ul li a:hover{
+    border-bottom: 4px saddlebrown;
+  
+
+}
+.text{
+    font-style: italic;
+    color:rgb(196, 21, 59);
+    background-color: silver;
+    font-size: 100%;
+}
+.searchbox{
+    text-align: left;
+    color: rgb(11, 168, 76);
+}
+.categories, .items{
+     width: max-content;
+     margin:10px;
+     border: none;
+     border-radius: 0 0 0px 0px;
+     display: inline-block;
+
+}
+.item-image{
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    border-radius: 0 0 0px 0px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.image-title{
+     text-align: center;
+     font-weight: bold;
+     padding:10px;
+}
+.container, .deals-container{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+}
+.parallax{
+    height: max-content;
+    background-attachment: fixed;
+    background-position:center ;
+    background-color: cadetblue;
+}
+.title{
+    padding:50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    background-color: black;
+}
+.images{
+    display:inline-block;
+}
+.item-image-size{
+    height: 200px;
+    width: 200px;
+    padding:5px;
+}
+.description{
+    margin:20px;
+    max-height: 100px;
+}
+.item-select{
+    margin:10px 0 0 0;
+}
+.categories:hover, .items:hover{
+    box-shadow: 0 0 20px 3px #184d47;
+
+}
+.buynow-btn{
+    color: rgb(0, 0, 0);
+    border-radius:10px;
+}
+.buynow-btn:hover{
+cursor: pointer;
+background-color:yellow;
+}
+
+.footer{
+    background: rgb(211, 117, 117)1;
+    text-align: center;
+    padding: 20px;
+}
+.quick-links{
+    color: rgb(236, 229, 229);
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    min-height: 30%;
+}
+.a links:hover{
+    color: rgb(45, 173, 19);
+}
+.copyrights{
+    font: size 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 16px;
+    background-color: saddlebrown;
+    color: rgb(229, 228, 226);
+}
+.page-title{
+    background-color: rgb(238, 42, 42);
+    text-align: center;
+    color: rgb(17, 15, 15);
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 102%;
+    font-family: cursive;
+    letter-spacing: 20px;
+    background-image: imagess/t4;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    display: inline-block;
+    position: inherit;
+}
+.reg-box input[type="Submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #1ab9a7;
+    color: azure;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 90px;
+}
+.login-box input[type="Submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #3a0ed8;
+    color: azure;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 90px;
+}
+.reg-box input[type="submit"]:hover{
+    cursor:pointer;
+    background-color: chocolate;
+}
+.reg-box input[type="submit"]:hover{
+    cursor:pointer;
+    background-color: chocolate;
+}
+.explore-btn{
+    background-color: rgb(241, 8, 54);
+    color: black;
+    font-size: 150%;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    display: inline-block;
+    transition: background 0.5s;
+}
+.col-md{
+    font-size: 100%;
+    background-image: url(/imagess/h15.jpg);
+
+}
+.page-title{
+    font-size: 100%;
+    font-weight: bold;
+    background-clip: border-box;
+    background-image: url(/imagess/h21.jpg);
+    background-color: rgb(172, 172, 216);
+}
